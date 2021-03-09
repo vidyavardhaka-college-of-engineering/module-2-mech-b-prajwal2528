@@ -3,7 +3,6 @@
 
 
 #include <stdio.h>
- 
 #include <stdio.h>
  
 int main()
@@ -11,13 +10,13 @@ int main()
    int a[10],i,sum;
    printf("Enter number of elements in array and the array elements");
    scanf("%d", &n);
- 
+ printf("enter the elements of the array");
   // printf("Enter %d elements\n", n);
  
    for (i = 0; i < n; i++)
    {
       scanf("%d", &a[i]);
-      sum=sum+a[]; 
+      sum=sum+a[i]; 
    }
  printf("Sum of elements=%d", );
  
