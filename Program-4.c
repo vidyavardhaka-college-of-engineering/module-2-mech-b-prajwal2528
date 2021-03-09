@@ -13,7 +13,6 @@ scanf("%d",&n);
  //Fill the missing code
 for(i=1;i<=n;i++);
  {
-   
    if ( i % 2 == 0)
    continue ;
   sum = sum + 5 ;
